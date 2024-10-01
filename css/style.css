@@ -17,8 +17,8 @@
   --white: #fff;
 
   /* Define Colors intentions */
-  --background: var(--white);
-  --textColor: var(--black);
+  --background: var(--black);
+  --textColor: var(--white);
   --buttonTextColor: var(--black);
   --lineColor: var(--grey);
   --cardBg: var(--white);

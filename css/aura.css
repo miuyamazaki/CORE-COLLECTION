@@ -1,0 +1,26 @@
+
+.lead-img {
+    background: url("images/3d74cee66709eff0b6c738baf1522297.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#464646;
+    min-height:1000px;
+}
+
+section {
+    padding:2rem;
+    margin:0;
+}
+
+.intro-text {
+    width: 60vw;
+    margin: 0 auto;
+    color:var(--white);
+    text-align: center;
+}
+
+h2 {
+    line-height: 1;
+    margin:0 0 1rem 0;
+}
