@@ -1,0 +1,30 @@
+<section class="grid-container col-2">
+    <div class="content-block">
+      <h1>AURA JOURNAL</h1>
+      <h3>today's date</h3>
+      <body>
+        <form>
+            <label for="todayDate">Today's Date:</label>
+            <input type="date" id="todayDate" name="todayDate">
+        </form>
+    
+        <script>
+            // Get today's date in YYYY-MM-DD format
+            const today = new Date().toISOString().split('T')[0];
+            // Set the value of the date input to today's date
+            document.getElementById('todayDate').value = today;
+        </script>
+    </body>
+      <p>
+        You’ve accomplished so much, and that’s something to be incredibly proud of! 
+Each step forward, no matter how small, is a testament to your dedication and hard work. Keep pushing ahead; your perseverance is inspiring. 
+Embrace the journey and celebrate your milestones along the way—you’ve got this!
+
+      </p>
+    </div>
+    <div class="content-block"><img src="/Users/miuishere/Desktop/core-1-int-fa24-demo-main/images/aura1.jpg" alt="art image" /><p>
+        HAPPINESS / ACCOMPLISHMENT 90% / BELONGING 80%</p></div>
+       
+        <a href="entry-1.html">Restart Journaling</a>
+        <a href="index.html">Go back to top page</a>
+  </section>
